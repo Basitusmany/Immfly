@@ -24,7 +24,7 @@
                     <!--
                     <useUnlimitedThreads>true</useUnlimitedThreads>
 -->
-                    <threadCount>9</threadCount>
+                    <threadCount>1</threadCount>
                     <perCoreThreadCount>false</perCoreThreadCount>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>

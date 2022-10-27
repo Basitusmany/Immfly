@@ -3,7 +3,7 @@ Feature: User should be able to login using correct credential
 
   Background:
     Given user is on the login page of web table app
-  @wip
+
   Scenario: Positive login scenario
     When user enters username "Test"
     And user enters password "Tester"

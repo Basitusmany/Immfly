@@ -1,4 +1,4 @@
-
+@smoke
 Feature: Google search functionality
   Agile story: As a user, when i am on the Google search page
   I should able to search whatever I want and see relevant information
@@ -10,7 +10,7 @@ Feature: Google search functionality
 
 
 
-  @ppp
+
   Scenario: Search functionality result title verification
     Given user is on Google search page
     When user types apple and clicks enter

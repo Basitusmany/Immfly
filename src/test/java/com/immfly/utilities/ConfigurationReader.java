@@ -1,4 +1,4 @@
-package com.cydeo.utilities;
+package com.immfly.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;

@@ -1,4 +1,4 @@
-package com.cydeo.runner;
+package com.immfly.runner;
 
 
 import io.cucumber.junit.Cucumber;
@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber"
         },
         features = "src/test/resources/features",
-        glue = "com/cydeo/step_definitions",
+        glue = "com/immfly/step_definitions",
         dryRun = false
 
 )

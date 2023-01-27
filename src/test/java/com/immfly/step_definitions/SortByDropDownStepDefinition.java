@@ -1,7 +1,7 @@
-package com.cydeo.step_definitions;
+package com.immfly.step_definitions;
 
-import com.cydeo.pages.ProductListPage;
-import com.cydeo.utilities.Driver;
+import com.immfly.pages.ProductListPage;
+import com.immfly.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

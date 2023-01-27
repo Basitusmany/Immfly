@@ -1,7 +1,7 @@
-package com.cydeo.step_definitions;
+package com.immfly.step_definitions;
 
 
-import com.cydeo.utilities.Driver;
+import com.immfly.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 

@@ -1,26 +1,32 @@
 package com.cydeo.utilities;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * reads the properties file configuration.properties
+ */
 public class ConfigurationReader {
-    private static Properties properties = new Properties();
 
+    private static Properties properties;
 
     static {
 
         try {
-            FileInputStream file = new FileInputStream("configuration.properties");
-            properties.load(file);
-        } catch (IOException e) {
-            System.out.println("file not found in the ConfigurationReader class. ");
+            String path = "configuration.properties";
+            FileInputStream input = new FileInputStream(path);
+            properties = new Properties();
+            properties.load(input);
+
+            input.close();
+        } catch (Exception e) {
             e.printStackTrace();
+
         }
-
     }
 
-    public static String getProperty(String keyword){
-        return properties.getProperty(keyword);
+    public static String getProperty(String keyName) {
+        return properties.getProperty(keyName);
     }
+
 }
